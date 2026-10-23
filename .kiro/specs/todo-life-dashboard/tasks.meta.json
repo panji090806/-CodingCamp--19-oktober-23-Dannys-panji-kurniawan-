@@ -1,0 +1,741 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1. Buat struktur proyek dan file fondasi": [
+      {
+        "executionId": "c21b336e-dae8-4e94-9a34-0806ad2d17bc",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769305830
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769686733
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792771037440
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792771042372
+      }
+    ],
+    "2.1 Implementasi `StorageUtil`": [
+      {
+        "executionId": "c21b336e-dae8-4e94-9a34-0806ad2d17bc",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769306858
+      },
+      {
+        "executionId": "c21b336e-dae8-4e94-9a34-0806ad2d17bc",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769335274
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769687094
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769707603
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769823119
+      }
+    ],
+    "2.2 Implementasi `ThemeSwitcher`": [
+      {
+        "executionId": "c21b336e-dae8-4e94-9a34-0806ad2d17bc",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769308123
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769687387
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769829055
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769848921
+      }
+    ],
+    "2.3 Tulis unit tests untuk `ThemeSwitcher` dan `StorageUtil`": [
+      {
+        "executionId": "c21b336e-dae8-4e94-9a34-0806ad2d17bc",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769309238
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769687659
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769869847
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792770293483
+      }
+    ],
+    "3.1 Implementasi pure function `getTimeGreeting(hour)`": [
+      {
+        "executionId": "c21b336e-dae8-4e94-9a34-0806ad2d17bc",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769309946
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769688162
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769832673
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769852736
+      }
+    ],
+    "3.2 Tulis property test untuk `getTimeGreeting` (Property 6)": [
+      {
+        "executionId": "c21b336e-dae8-4e94-9a34-0806ad2d17bc",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769310456
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769688566
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769873997
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792770298621
+      }
+    ],
+    "3.3 Implementasi `GreetingWidget` lengkap": [
+      {
+        "executionId": "c21b336e-dae8-4e94-9a34-0806ad2d17bc",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769310811
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769688849
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792770322100
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792770334797
+      }
+    ],
+    "3.4 Tulis unit tests untuk `GreetingWidget`": [
+      {
+        "executionId": "c21b336e-dae8-4e94-9a34-0806ad2d17bc",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769311560
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769689117
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792770348624
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792770445047
+      }
+    ],
+    "4. Checkpoint — pastikan struktur, tema, dan greeting berjalan": [
+      {
+        "executionId": "c21b336e-dae8-4e94-9a34-0806ad2d17bc",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769311971
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769689385
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792771048386
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792771052576
+      }
+    ],
+    "5.1 Implementasi pure function `formatTime(seconds)`": [
+      {
+        "executionId": "c21b336e-dae8-4e94-9a34-0806ad2d17bc",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769312697
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769689632
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769836214
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769857433
+      }
+    ],
+    "5.2 Tulis property test untuk `formatTime` (Property 5)": [
+      {
+        "executionId": "c21b336e-dae8-4e94-9a34-0806ad2d17bc",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769313396
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769690356
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769878548
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792770305642
+      }
+    ],
+    "5.3 Implementasi `FocusTimer` lengkap": [
+      {
+        "executionId": "c21b336e-dae8-4e94-9a34-0806ad2d17bc",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769314654
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769690597
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792770326232
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792770338983
+      }
+    ],
+    "5.4 Tulis unit tests untuk `FocusTimer`": [
+      {
+        "executionId": "c21b336e-dae8-4e94-9a34-0806ad2d17bc",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769315059
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769690842
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792770352459
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792770449491
+      }
+    ],
+    "6.1 Implementasi pure functions `normalize(text)` dan `isDuplicate(text, excludeId?)`": [
+      {
+        "executionId": "c21b336e-dae8-4e94-9a34-0806ad2d17bc",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769316043
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769691097
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769839772
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769861660
+      }
+    ],
+    "6.2 Tulis property test untuk pencegahan duplikat saat `addTodo` (Property 1)": [
+      {
+        "executionId": "c21b336e-dae8-4e94-9a34-0806ad2d17bc",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769316524
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769691419
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769883916
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792770310874
+      }
+    ],
+    "6.3 Tulis property test untuk penolakan edit duplikat (Property 2)": [
+      {
+        "executionId": "c21b336e-dae8-4e94-9a34-0806ad2d17bc",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769317636
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769691928
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792770330213
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792770343714
+      }
+    ],
+    "6.4 Implementasi `TodoManager` — operasi CRUD": [
+      {
+        "executionId": "c21b336e-dae8-4e94-9a34-0806ad2d17bc",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769318232
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769692218
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792770356572
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792770455002
+      }
+    ],
+    "6.5 Tulis property test untuk toggle round-trip (Property 3)": [
+      {
+        "executionId": "c21b336e-dae8-4e94-9a34-0806ad2d17bc",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769319731
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769692678
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792770463895
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792770878707
+      }
+    ],
+    "6.6 Tulis property test untuk persistensi tugas di storage (Property 4)": [
+      {
+        "executionId": "c21b336e-dae8-4e94-9a34-0806ad2d17bc",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769320115
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769694524
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792770467828
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792770883057
+      }
+    ],
+    "6.7 Tulis unit tests untuk `TodoManager`": [
+      {
+        "executionId": "c21b336e-dae8-4e94-9a34-0806ad2d17bc",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769320987
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769694831
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792770894400
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792770943227
+      }
+    ],
+    "7. Checkpoint — pastikan TodoManager berfungsi penuh": [
+      {
+        "executionId": "c21b336e-dae8-4e94-9a34-0806ad2d17bc",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769321347
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769695382
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792771056507
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792771362776
+      }
+    ],
+    "8.1 Implementasi pure function `validateUrl(url)`": [
+      {
+        "executionId": "c21b336e-dae8-4e94-9a34-0806ad2d17bc",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769321986
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769695915
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769844455
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769865285
+      }
+    ],
+    "8.2 Tulis property test untuk `validateUrl` (Property 7)": [
+      {
+        "executionId": "c21b336e-dae8-4e94-9a34-0806ad2d17bc",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769322432
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769696355
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769888231
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792770316923
+      }
+    ],
+    "8.3 Implementasi `QuickLinksManager` lengkap": [
+      {
+        "executionId": "c21b336e-dae8-4e94-9a34-0806ad2d17bc",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769323560
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769697193
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792770362426
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792770459075
+      }
+    ],
+    "8.4 Tulis property test untuk persistensi tautan di storage (Property 8)": [
+      {
+        "executionId": "c21b336e-dae8-4e94-9a34-0806ad2d17bc",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769323893
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769697774
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792770473293
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792770889142
+      }
+    ],
+    "8.5 Tulis unit tests untuk `QuickLinksManager`": [
+      {
+        "executionId": "c21b336e-dae8-4e94-9a34-0806ad2d17bc",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769324278
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769698475
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792770898423
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792770947933
+      }
+    ],
+    "9.1 Buat layout grid responsif di `css/style.css`": [
+      {
+        "executionId": "c21b336e-dae8-4e94-9a34-0806ad2d17bc",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769325207
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769699291
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792770902712
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792770952631
+      }
+    ],
+    "9.2 Tambahkan label aksesibilitas pada semua elemen interaktif": [
+      {
+        "executionId": "c21b336e-dae8-4e94-9a34-0806ad2d17bc",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769325495
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769700242
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792770957254
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792770974051
+      }
+    ],
+    "10.1 Wire semua modul dalam `AppInit`": [
+      {
+        "executionId": "c21b336e-dae8-4e94-9a34-0806ad2d17bc",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769325875
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769700873
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792770962321
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792770978830
+      }
+    ],
+    "10.2 Tulis integration tests untuk skenario end-to-end": [
+      {
+        "executionId": "c21b336e-dae8-4e94-9a34-0806ad2d17bc",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769326309
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769701381
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792770983720
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792771030173
+      }
+    ],
+    "11. Checkpoint akhir — pastikan semua tests lulus": [
+      {
+        "executionId": "c21b336e-dae8-4e94-9a34-0806ad2d17bc",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769327053
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792769701979
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792771367161
+      },
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792771371912
+      }
+    ],
+    "2. Implementasi StorageUtil dan ThemeSwitcher": [
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792770293936
+      }
+    ],
+    "3. Implementasi GreetingWidget": [
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792770445406
+      }
+    ],
+    "5. Implementasi FocusTimer": [
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792770449861
+      }
+    ],
+    "6. Implementasi TodoManager": [
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792770943501
+      }
+    ],
+    "8. Implementasi QuickLinksManager": [
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792770948173
+      }
+    ],
+    "9. Implementasi CSS responsif dan aksesibilitas": [
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792770974533
+      }
+    ],
+    "10. Wiring semua modul dan finalisasi": [
+      {
+        "executionId": "20106351-9ba3-47fb-b2a6-e133fd69481c",
+        "chatSessionId": "sess_12d1167d-c235-4241-8833-4af6baad41af",
+        "timestamp": 1792771030644
+      }
+    ]
+  }
+}

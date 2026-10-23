@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>To-Do Life Dashboard</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body data-theme="light">
+
+  <header class="site-header">
+    <button id="theme-toggle" class="btn btn-icon" aria-label="Beralih ke mode gelap">🌙</button>
+  </header>
+
+  <main class="dashboard-grid">
+
+    <!-- Widget 1: Greeting -->
+    <section id="greeting-widget" class="card" aria-labelledby="greeting-heading">
+      <h2 id="greeting-heading" class="visually-hidden">Sapaan & Waktu</h2>
+      <div id="greeting-time" class="clock" aria-live="polite">00:00:00</div>
+      <div id="greeting-date" class="date"></div>
+      <div id="greeting-text" class="greeting" aria-live="polite"></div>
+      <div class="greeting-name-form">
+        <label for="greeting-name-input">Nama Anda</label>
+        <input
+          id="greeting-name-input"
+          type="text"
+          maxlength="50"
+          placeholder="Masukkan nama Anda…"
+          aria-describedby="greeting-name-error"
+        />
+        <button id="greeting-name-save" class="btn">Simpan</button>
+        <span id="greeting-name-error" class="error-msg" aria-live="polite" role="alert"></span>
+      </div>
+    </section>
+
+    <!-- Widget 2: Focus Timer -->
+    <section id="focus-timer" class="card" aria-labelledby="timer-heading">
+      <h2 id="timer-heading">Focus Timer</h2>
+      <div id="timer-display" class="timer-display" aria-live="polite">25:00</div>
+      <div
+        id="timer-notification"
+        class="timer-notification hidden"
+        aria-live="assertive"
+        role="alert"
+      >
+        Sesi fokus selesai! Istirahat sejenak. ☕
+      </div>
+      <div class="timer-controls">
+        <button id="timer-start" class="btn btn-primary" aria-label="Mulai timer">Mulai</button>
+        <button id="timer-stop"  class="btn" disabled aria-label="Hentikan timer">Berhenti</button>
+        <button id="timer-reset" class="btn" aria-label="Reset timer">Reset</button>
+      </div>
+    </section>
+
+    <!-- Widget 3: Todo Manager -->
+    <section id="todo-manager" class="card" aria-labelledby="todo-heading">
+      <h2 id="todo-heading">Daftar Tugas</h2>
+      <div class="todo-input-group">
+        <label for="todo-input" class="visually-hidden">Tugas baru</label>
+        <input
+          id="todo-input"
+          type="text"
+          maxlength="200"
+          placeholder="Tambah tugas baru…"
+          aria-describedby="todo-error"
+        />
+        <button id="todo-add" class="btn btn-primary" aria-label="Tambah tugas">Tambah</button>
+        <span id="todo-error" class="error-msg" aria-live="polite" role="alert"></span>
+      </div>
+      <ul id="todo-list" class="todo-list" aria-label="Daftar tugas"></ul>
+    </section>
+
+    <!-- Widget 4: Quick Links -->
+    <section id="quicklinks-manager" class="card" aria-labelledby="links-heading">
+      <h2 id="links-heading">Pintasan Tautan</h2>
+      <div class="link-input-group">
+        <label for="link-label-input" class="visually-hidden">Label tautan</label>
+        <input
+          id="link-label-input"
+          type="text"
+          maxlength="50"
+          placeholder="Label (contoh: GitHub)"
+          aria-describedby="link-error"
+        />
+        <label for="link-url-input" class="visually-hidden">URL tautan</label>
+        <input
+          id="link-url-input"
+          type="url"
+          maxlength="2048"
+          placeholder="https://…"
+          aria-describedby="link-error"
+        />
+        <button id="link-add" class="btn btn-primary" aria-label="Tambah tautan">Tambah</button>
+        <span id="link-error" class="error-msg" aria-live="polite" role="alert"></span>
+      </div>
+      <ul id="links-list" class="links-list" aria-label="Daftar pintasan tautan"></ul>
+    </section>
+
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
